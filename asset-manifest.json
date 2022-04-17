@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/portfolio-web/static/css/main.3195430c.css",
+    "main.js": "/portfolio-web/static/js/main.475118ea.js",
+    "static/media/foto.png": "/portfolio-web/static/media/foto.586675dab25f4b100696.png",
+    "static/media/about.png": "/portfolio-web/static/media/about.31e412f9870b3353274a.png",
+    "static/media/Currículum.pdf": "/portfolio-web/static/media/Currículum.624cc172c5f770055eb0.pdf",
+    "static/media/tienda.jpg": "/portfolio-web/static/media/tienda.1f06b7293c7e1f25c845.jpg",
+    "static/media/sudokus.jpg": "/portfolio-web/static/media/sudokus.8234962f3659cafe9602.jpg",
+    "static/media/clima.jpg": "/portfolio-web/static/media/clima.0f8284c23732b64a2517.jpg",
+    "index.html": "/portfolio-web/index.html",
+    "main.3195430c.css.map": "/portfolio-web/static/css/main.3195430c.css.map",
+    "main.475118ea.js.map": "/portfolio-web/static/js/main.475118ea.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3195430c.css",
+    "static/js/main.475118ea.js"
+  ]
+}
