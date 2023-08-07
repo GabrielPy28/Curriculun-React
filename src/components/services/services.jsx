@@ -80,7 +80,7 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Pensamiento Creativo.</p>
+              <p>Pensamiento Analítico.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
@@ -88,7 +88,7 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Pensamiento Analítico.</p>
+              <p>Atención al Detalle.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>

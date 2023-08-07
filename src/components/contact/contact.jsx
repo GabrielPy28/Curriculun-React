@@ -1,19 +1,11 @@
-import React, {useRef} from 'react'
+import React from 'react'
 import './contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
 import {RiMessengerLine} from 'react-icons/ri'
 import {BsWhatsapp} from 'react-icons/bs'
-import emailjs from 'emailjs-com'
 
 const Contact = () => {
-  const form = useRef();
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs.sendForm('service_swew82e', 'template_qwvka94', form.current, 'zwwLZnCGUY1T2qiET')
-    
-    e.target.reset()
-  };
+  
   return (
     <section id='contact'>
       <h5>Ponte en Contacto</h5>
@@ -41,11 +33,14 @@ const Contact = () => {
           </article>
         </div>
 
-        <form ref={form} onSubmit={sendEmail}>
+        <form action="https://formsubmit.co/2b312a785b840e5d90d624ab5be1f1dc" method="POST">
           <input type="text" name="name" placeholder='Nombre Completo' requerid />
-          <input type="email" name="mail" placeholder='Correo Electrónico' requerid />
-          <textarea name="message" rows="7" placeholder='Mensaje' requerid ></textarea>
-          <button type='submit' className='btn btn-primary'>Enviar Mensaje</button>
+          <input type="email" name="email" placeholder='Correo Electrónico' requerid />
+          <input type="text" name="subject" placeholder='Subject' requerid />
+          <textarea name="comments" rows="7" placeholder='Mensaje' requerid ></textarea>
+          <input type='submit' className='btn btn-primary' value='Enviar Mensaje'></input>
+          <input type="hidden" name="_captcha" value="false"></input>
+          <input type="hidden" name="_next" value="https://portfolio-web-python.netlify.app"></input>
         </form>
       </div>
     </section>
