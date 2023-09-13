@@ -2,7 +2,7 @@ import React from 'react'
 import './portfolio.css'
 import img1 from '../../assets/tienda.jpg'
 import img2 from '../../assets/clima.jpg'
-import img3 from '../../assets/sudokus.jpg'
+import img3 from '../../assets/dashboards.png'
 
 const data = [
   {
@@ -20,8 +20,8 @@ const data = [
   {
     id: 3,
     image: img3,
-    title: 'Solucionador de Sudokus con Python',
-    github: 'https://github.com/GabrielPy28/mis-proyectos-/tree/main/Soluci%C3%B3n%20Sudoku%20con%20Python'
+    title: 'Dashboard para Data Analysis con Python',
+    github: 'https://python-dash-app.onrender.com'
   },
 ]
 
@@ -41,7 +41,7 @@ const Portfolio = () => {
                 </div>
                 <h3>{title}</h3>
                 <div className="portfolio__item-cta">
-                  <a href={github} className='btn' target={"__blank"}>Github</a>
+                  <a href={github} className='btn' target={"__blank"}>visualize</a>
                 </div>
               </article>
             )
