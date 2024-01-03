@@ -3,6 +3,9 @@ import './portfolio.css'
 import img1 from '../../assets/tienda.jpg'
 import img2 from '../../assets/clima.jpg'
 import img3 from '../../assets/dashboards.png'
+import img4 from '../../assets/flaskbot.png'
+import img5 from '../../assets/translater.png'
+import img6 from '../../assets/sudoku.png'
 
 const data = [
   {
@@ -21,7 +24,25 @@ const data = [
     id: 3,
     image: img3,
     title: 'Dashboard para Data Analysis con Python',
-    github: 'https://python-dash-app.onrender.com'
+    github: 'https://github.com/GabrielPy28/Python-Dashboard'
+  },
+  {
+    id: 4,
+    image: img4,
+    title: 'Chatbot con Flask y Microsoft/DialoGPT-medium',
+    github: 'https://github.com/GabrielPy28/Flaskbot'
+  },
+  {
+    id: 5,
+    image: img5,
+    title: 'Traductor de Texto con Tkinter y Googletrans',
+    github: 'https://github.com/GabrielPy28/Translator'
+  },
+  {
+    id: 6,
+    image: img6,
+    title: 'Solucionador de Sudokus 9x9',
+    github: 'https://github.com/GabrielPy28/mis-proyectos-/tree/main/Solución%20Sudoku%20con%20Python'
   },
 ]
 
@@ -41,7 +62,7 @@ const Portfolio = () => {
                 </div>
                 <h3>{title}</h3>
                 <div className="portfolio__item-cta">
-                  <a href={github} className='btn' target={"__blank"}>visualize</a>
+                  <a href={github} className='btn' target={"__blank"}>ver proyecto</a>
                 </div>
               </article>
             )
