@@ -11,40 +11,40 @@ const Services = () => {
       <div className="container services__container">
         <article className="service">
           <div className="service__head">
-            <h3>Diseño UI/UX</h3>
+            <h3>Ingeniería de Datos</h3>
           </div>
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Diseño de Interfaces.</p>
+              <p>Diseño y Desarrollo de Procesos ETL</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Diseño de Wireframe.</p>
+              <p>Diseño, Prueba y Mantenimiento de la Arquitectura</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Diseño de Interacción.</p>
+              <p>Automatización y Scripting.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Interpretacion de Datos.</p>
+              <p>Análisis, Procesamiento y Visualización de Datos.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Empatía.</p>
+              <p>Evaluación y Mejora del Rendimient.</p>
             </li>
           </ul>
         </article>
-        {/*End UI/UX*/}
+        {/*End Data Engineer*/}
         <article className="service">
           <div className="service__head">
-            <h3>Desarrollo Web</h3>
+            <h3>Desarrollo de Software</h3>
           </div>
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Capacidad de Diseño.</p>
+              <p>Capacidad de Análisis y Diseño de software.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
@@ -52,23 +52,23 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Integración de Código.</p>
+              <p>Integración y Desarrollo Continuo de Código.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Programación Back-end.</p>
+              <p>Ejecución de Pruebas Unitarias.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Diseño de Bases de Datos.</p>
+              <p>Creación y Gestión de Bases de Datos.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Analisis de Fallas.</p>
+              <p>Gestión de Proyectos.</p>
             </li>
           </ul>
         </article>
-        {/*End Web Development*/}
+        {/*End Soft Development*/}
         <article className="service">
           <div className="service__head">
             <h3>Creación de Contenido</h3>
