@@ -3,9 +3,10 @@ import './portfolio.css'
 import img1 from '../../assets/tienda.jpg'
 import img2 from '../../assets/clima.jpg'
 import img3 from '../../assets/dashboards.png'
-import img4 from '../../assets/flaskbot.png'
-import img5 from '../../assets/translater.png'
-import img6 from '../../assets/sudoku.png'
+import img4 from '../../assets/PyWeather.jpg'
+import img5 from '../../assets/flaskbot.png'
+import img6 from '../../assets/translater.png'
+import img7 from '../../assets/sudoku.png'
 
 const data = [
   {
@@ -29,18 +30,24 @@ const data = [
   {
     id: 4,
     image: img4,
-    title: 'Chatbot con Flask y Microsoft/DialoGPT-medium',
-    github: 'https://github.com/GabrielPy28/Flaskbot'
+    title: 'ETL With Python + Airflow and AWS S3',
+    github: 'https://github.com/GabrielPy28/PyWeather'
   },
   {
     id: 5,
     image: img5,
-    title: 'Traductor de Texto con Tkinter y Googletrans',
-    github: 'https://github.com/GabrielPy28/Translator'
+    title: 'Chatbot con Flask y DialoGPT-medium',
+    github: 'https://github.com/GabrielPy28/Flaskbot'
   },
   {
     id: 6,
     image: img6,
+    title: 'Traductor de Texto con Tkinter y Googletrans',
+    github: 'https://github.com/GabrielPy28/Translator'
+  },
+  {
+    id: 7,
+    image: img7,
     title: 'Solucionador de Sudokus 9x9',
     github: 'https://github.com/GabrielPy28/mis-proyectos-/tree/main/Solución%20Sudoku%20con%20Python'
   },
