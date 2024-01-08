@@ -30,7 +30,7 @@ const data = [
   {
     id: 4,
     image: img4,
-    title: 'ETL With Python + Airflow and AWS S3',
+    title: 'ETL con Python + Airflow y AWS S3',
     github: 'https://github.com/GabrielPy28/PyWeather'
   },
   {
