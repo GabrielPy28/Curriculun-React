@@ -1,10 +1,25 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
 import {RiMessengerLine} from 'react-icons/ri'
 import {BsWhatsapp} from 'react-icons/bs'
+import { sendEmail } from './sendMessage.js'
 
 const Contact = () => {
+  
+  const [toEmail, setToEmail] = useState('');
+  const [name, setName] = useState('');
+  const [subject, setSubject] = useState('');
+  const [content, setContent] = useState('');
+
+  const handleSubmit = async (e) => {
+      e.preventDefault();
+      await sendEmail(toEmail, name, subject, content);
+      setToEmail('');
+      setName('');
+      setSubject('');
+      setContent('');
+  };
   
   return (
     <section id='contact'>
@@ -33,14 +48,12 @@ const Contact = () => {
           </article>
         </div>
 
-        <form action="https://formsubmit.co/2b312a785b840e5d90d624ab5be1f1dc" method="POST">
-          <input type="text" name="name" placeholder='Nombre Completo' requerid />
-          <input type="email" name="email" placeholder='Correo Electrónico' requerid />
-          <input type="text" name="subject" placeholder='Subject' requerid />
-          <textarea name="comments" rows="7" placeholder='Mensaje' requerid ></textarea>
+        <form onSubmit={handleSubmit}>
+          <input type="text" value={name} onChange={(e) => setName(e.target.value)} placeholder='Nombre Completo' requerid />
+          <input type="email" value={toEmail} onChange={(e) => setToEmail(e.target.value)} placeholder='Correo Electrónico' requerid />
+          <input type="text" value={subject} onChange={(e) => setSubject(e.target.value)} placeholder='Subject' requerid />
+          <textarea value={content} onChange={(e) => setContent(e.target.value)} rows="7" placeholder='Mensaje' requerid ></textarea>
           <input type='submit' className='btn btn-primary' value='Enviar Mensaje'></input>
-          <input type="hidden" name="_captcha" value="false"></input>
-          <input type="hidden" name="_next" value="https://portfolio-web-python.netlify.app"></input>
         </form>
       </div>
     </section>

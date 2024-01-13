@@ -13,7 +13,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-img">
-            <img src={foto} alt="About Image"/>
+            <img src={foto} alt="about_me"/>
           </div>
         </div>
 
@@ -22,7 +22,7 @@ const About = () => {
             <article className="about__card">
               <FaAward className='about__icon'/>
               <h5>Experiencia</h5>
-              <small>+3 años desarrollando</small>
+              <small>+4 años desarrollando</small>
             </article>
 
             <article className="about__card">

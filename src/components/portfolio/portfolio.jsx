@@ -5,8 +5,9 @@ import img2 from '../../assets/clima.jpg'
 import img3 from '../../assets/dashboards.png'
 import img4 from '../../assets/PyWeather.jpg'
 import img5 from '../../assets/flaskbot.png'
-import img6 from '../../assets/translater.png'
-import img7 from '../../assets/sudoku.png'
+import img6 from '../../assets/invaders_ships.jpg'
+import img7 from '../../assets/translater.png'
+import img8 from '../../assets/sudoku.png'
 
 const data = [
   {
@@ -24,30 +25,36 @@ const data = [
   {
     id: 3,
     image: img3,
-    title: 'Dashboard para Data Analysis con Python',
+    title: 'Dashboard para Data Analysis',
     github: 'https://github.com/GabrielPy28/Python-Dashboard'
   },
   {
     id: 4,
     image: img4,
-    title: 'ETL con Python + Airflow y AWS S3',
+    title: 'ETL con Python, Airflow y AWS',
     github: 'https://github.com/GabrielPy28/PyWeather'
   },
   {
     id: 5,
     image: img5,
-    title: 'Chatbot con Flask y DialoGPT-medium',
+    title: 'Chatbot con Flask y DialoGPT',
     github: 'https://github.com/GabrielPy28/Flaskbot'
   },
   {
     id: 6,
     image: img6,
-    title: 'Traductor de Texto con Tkinter y Googletrans',
-    github: 'https://github.com/GabrielPy28/Translator'
+    title: 'Pygame: Invaders Ships',
+    github: 'https://github.com/GabrielPy28/invaders-ships'
   },
   {
     id: 7,
     image: img7,
+    title: 'Traductor de Texto',
+    github: 'https://github.com/GabrielPy28/Translator'
+  },
+  {
+    id: 8,
+    image: img8,
     title: 'Solucionador de Sudokus 9x9',
     github: 'https://github.com/GabrielPy28/mis-proyectos-/tree/main/Solución%20Sudoku%20con%20Python'
   },
