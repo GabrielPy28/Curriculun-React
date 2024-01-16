@@ -5,9 +5,10 @@ import img2 from '../../assets/clima.jpg'
 import img3 from '../../assets/dashboards.png'
 import img4 from '../../assets/PyWeather.jpg'
 import img5 from '../../assets/flaskbot.png'
-import img6 from '../../assets/invaders_ships.jpg'
-import img7 from '../../assets/translater.png'
-import img8 from '../../assets/sudoku.png'
+import img6 from '../../assets/fastapi.jpg'
+import img7 from '../../assets/invaders_ships.jpg'
+import img8 from '../../assets/translater.png'
+import img9 from '../../assets/sudoku.png'
 
 const data = [
   {
@@ -43,18 +44,24 @@ const data = [
   {
     id: 6,
     image: img6,
-    title: 'Pygame: Invaders Ships',
-    github: 'https://github.com/GabrielPy28/invaders-ships'
+    title: 'FastAPI con Autenticación JWT',
+    github: 'https://github.com/GabrielPy28/FastAPI-JWT'
   },
   {
     id: 7,
     image: img7,
-    title: 'Traductor de Texto',
-    github: 'https://github.com/GabrielPy28/Translator'
+    title: 'Pygame: Invaders Ships',
+    github: 'https://github.com/GabrielPy28/invaders-ships'
   },
   {
     id: 8,
     image: img8,
+    title: 'Traductor de Texto',
+    github: 'https://github.com/GabrielPy28/Translator'
+  },
+  {
+    id: 9,
+    image: img9,
     title: 'Solucionador de Sudokus 9x9',
     github: 'https://github.com/GabrielPy28/mis-proyectos-/tree/main/Solución%20Sudoku%20con%20Python'
   },
