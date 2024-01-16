@@ -2,4 +2,4 @@
  functions = "functions"
 
 [[plugins]]
- package = "@netlify/plugin-functions-core"
+ package = "@netlify/plugin-local-install-core"
