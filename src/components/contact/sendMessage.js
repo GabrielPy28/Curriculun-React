@@ -29,7 +29,7 @@ async function sendEmail(toEmail, name, subject, content) {
 		`;
 
 		const response = await axios.post(
-			'https://portfolio-web-python.netlify.app/.netlify/functions/sendMessage', 
+			'https://portfolio-web-python.netlify.app/.netlify/functions/sendEmail', 
 			{
 				subject: 'New Message From Web Portfolio',
 				body: htmlContent,
