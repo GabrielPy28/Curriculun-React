@@ -11,6 +11,10 @@ const key = process.env.SENDGRID_API_KEY
 
 app.use(express.json());
 
+app.get('/', (res) => {
+    res.status(200).json({'app': 'Server listening'});
+})
+
 app.post('/send-email', async (req, res) => {
     const { subject, body } = req.body;
 
