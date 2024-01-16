@@ -1,5 +1,3 @@
-require('dotenv').config();
-
 const express = require('express');
 const nodemailer = require('nodemailer');
 const cors = require('cors');
@@ -11,7 +9,11 @@ const key = process.env.SENDGRID_API_KEY
 
 app.use(express.json());
 
-app.post('/send-email', async (req, res) => {
+app.get('/api/*', (req, res) => {
+    res.status(200).json({'app': 'Server listening'});
+})
+
+app.post('/api/send-email', async (req, res) => {
     const { subject, body } = req.body;
 
     const msg = {
@@ -59,6 +61,6 @@ app.post('/send-email', async (req, res) => {
 
 });
 
-app.listen(3001, () => {
-    console.log(`Server is running on port ${3001}`);
+app.listen(process.env.PORT, () => {
+    console.log(`Server is running on port ${process.env.PORT}`);
 });
