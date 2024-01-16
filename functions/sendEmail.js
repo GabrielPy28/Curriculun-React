@@ -1,20 +1,15 @@
-const express = require('express');
 const nodemailer = require('nodemailer');
-const cors = require('cors');
-
-const app = express();
-app.use(cors({ origin: '*' }));
-
 const key = process.env.SENDGRID_API_KEY
 
-app.use(express.json());
+exports.handler = async (event, context) => {
+    if (event.httpMethod !== 'POST') {
+        return {
+            statusCode: 405,
+            body: 'Method Not Allowed'
+        };
+    }
 
-app.get('/api/*', (req, res) => {
-    res.status(200).json({'app': 'Server listening'});
-})
-
-app.post('/api/send-email', async (req, res) => {
-    const { subject, body } = req.body;
+    const { subject, body } = JSON.parse(event.body);
 
     const msg = {
         to: {
@@ -54,13 +49,15 @@ app.post('/api/send-email', async (req, res) => {
 
     try {
         let info = await transporter.sendMail(mailOptions);
-        res.status(200).json({'Email enviado': info.messageId})
+        return {
+            statusCode: 200,
+            body: JSON.stringify({'Email enviado': info.messageId})
+        };
     } catch (error) {
-        res.status(500).json({'Error al enviar el email': error});
+        return {
+            statusCode: 500,
+            body: JSON.stringify({'Error al enviar el email': error.message})
+        };
     };
 
-});
-
-app.listen(process.env.PORT, () => {
-    console.log(`Server is running on port ${process.env.PORT}`);
-});
+};
