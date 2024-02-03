@@ -20,8 +20,8 @@ app.post('/send-email', async (req, res) => {
             name: 'Gabriel Piñero'
         },
         from: {
-            email: 'gabrielparenas27@gmail.com',
-            name: 'Gabriel Piñero'
+            email: 'webportafolio3@gmail.com',
+            name: 'Portafolio Web'
         },
         subject: subject,
         content: [
@@ -60,5 +60,5 @@ app.post('/send-email', async (req, res) => {
 });
 
 app.listen(3001, () => {
-    console.log(`Server is running on port ${3001}`);
+    console.log(`Server is running on port 3001`);
 });
