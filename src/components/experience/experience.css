@@ -43,6 +43,23 @@
 /*------------MEDIA QUERIS (MEDIUM DEVICES)------------*/
 @media screen and (max-width: 1024px) {
     .experience__container {
+        grid-template-columns: 2fr 2fr;
+        justify-items: center;
+    }
+
+    .experience__container > div {
+        width: 95%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+
+    .experience__content {
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 910px) {
+    .experience__container {
         grid-template-columns: 1fr;
     }
 

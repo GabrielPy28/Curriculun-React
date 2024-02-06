@@ -62,7 +62,7 @@ header {
 /*------------MEDIA QUERIS (MEDIUM DEVICES)------------*/
 @media screen and (max-width: 1024px) {
     header {
-        height: 68vh;
+        height: 53.8rem;
     }
 }
 

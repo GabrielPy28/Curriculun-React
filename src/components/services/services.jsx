@@ -60,7 +60,7 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Evaluación y Mejora del Rendimient.</p>
+              <p>Evaluación y Mejora del Rendimiento.</p>
             </li>
           </ul>
         </article>

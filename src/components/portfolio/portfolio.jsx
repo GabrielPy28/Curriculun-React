@@ -6,9 +6,10 @@ import img3 from '../../assets/dashboards.png'
 import img4 from '../../assets/PyWeather.jpg'
 import img5 from '../../assets/flaskbot.png'
 import img6 from '../../assets/fastapi.jpg'
-import img7 from '../../assets/invaders_ships.jpg'
-import img8 from '../../assets/translater.png'
-import img9 from '../../assets/sudoku.png'
+import img7 from '../../assets/api-serverless.jpeg'
+import img8 from '../../assets/invaders_ships.jpg'
+import img9 from '../../assets/translater.png'
+import img10 from '../../assets/sudoku.png'
 
 const data = [
   {
@@ -50,18 +51,24 @@ const data = [
   {
     id: 7,
     image: img7,
-    title: 'Pygame: Invaders Ships',
-    github: 'https://github.com/GabrielPy28/invaders-ships'
+    title: 'REST API Serverless',
+    github: 'https://github.com/GabrielPy28/API-Serverless'
   },
   {
     id: 8,
     image: img8,
-    title: 'Traductor de Texto',
-    github: 'https://github.com/GabrielPy28/Translator'
+    title: 'Pygame: Invaders Ships',
+    github: 'https://github.com/GabrielPy28/invaders-ships'
   },
   {
     id: 9,
     image: img9,
+    title: 'Traductor de Texto',
+    github: 'https://github.com/GabrielPy28/Translator'
+  },
+  {
+    id: 10,
+    image: img10,
     title: 'Solucionador de Sudokus 9x9',
     github: 'https://github.com/GabrielPy28/mis-proyectos-/tree/main/Solución%20Sudoku%20con%20Python'
   },
