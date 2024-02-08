@@ -4,12 +4,13 @@ import img1 from '../../assets/tienda.jpg'
 import img2 from '../../assets/clima.jpg'
 import img3 from '../../assets/dashboards.png'
 import img4 from '../../assets/PyWeather.jpg'
-import img5 from '../../assets/flaskbot.png'
-import img6 from '../../assets/fastapi.jpg'
-import img7 from '../../assets/api-serverless.jpeg'
-import img8 from '../../assets/invaders_ships.jpg'
-import img9 from '../../assets/translater.png'
-import img10 from '../../assets/sudoku.png'
+import img5 from '../../assets/pydetecting.jpg'
+import img6 from '../../assets/flaskbot.png'
+import img7 from '../../assets/fastapi.jpg'
+import img8 from '../../assets/api-serverless.jpeg'
+import img9 from '../../assets/invaders_ships.jpg'
+import img10 from '../../assets/translater.png'
+import img11 from '../../assets/sudoku.png'
 
 const data = [
   {
@@ -39,36 +40,42 @@ const data = [
   {
     id: 5,
     image: img5,
-    title: 'Chatbot con Flask y DialoGPT',
-    github: 'https://github.com/GabrielPy28/Flaskbot'
+    title: 'Detección de Fraudes de Pago',
+    github: 'https://github.com/GabrielPy28/PyDetecting'
   },
   {
     id: 6,
     image: img6,
-    title: 'FastAPI con Autenticación JWT',
-    github: 'https://github.com/GabrielPy28/FastAPI-JWT'
+    title: 'Chatbot con Flask y DialoGPT',
+    github: 'https://github.com/GabrielPy28/Flaskbot'
   },
   {
     id: 7,
     image: img7,
-    title: 'REST API Serverless',
-    github: 'https://github.com/GabrielPy28/API-Serverless'
+    title: 'FastAPI con Autenticación JWT',
+    github: 'https://github.com/GabrielPy28/FastAPI-JWT'
   },
   {
     id: 8,
     image: img8,
-    title: 'Pygame: Invaders Ships',
-    github: 'https://github.com/GabrielPy28/invaders-ships'
+    title: 'REST API Serverless',
+    github: 'https://github.com/GabrielPy28/API-Serverless'
   },
   {
     id: 9,
     image: img9,
-    title: 'Traductor de Texto',
-    github: 'https://github.com/GabrielPy28/Translator'
+    title: 'Pygame: Invaders Ships',
+    github: 'https://github.com/GabrielPy28/invaders-ships'
   },
   {
     id: 10,
     image: img10,
+    title: 'Traductor de Texto',
+    github: 'https://github.com/GabrielPy28/Translator'
+  },
+  {
+    id: 11,
+    image: img11,
     title: 'Solucionador de Sudokus 9x9',
     github: 'https://github.com/GabrielPy28/mis-proyectos-/tree/main/Solución%20Sudoku%20con%20Python'
   },
