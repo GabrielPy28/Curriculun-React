@@ -3,15 +3,16 @@ import './portfolio.css'
 import img1 from '../../assets/tienda.jpg'
 import img2 from '../../assets/clima.jpg'
 import img3 from '../../assets/dashboards.png'
-import img4 from '../../assets/PyWeather.jpg'
-import img5 from '../../assets/pydetecting.jpg'
-import img6 from '../../assets/crypto_analysis.jpg'
-import img7 from '../../assets/flaskbot.png'
-import img8 from '../../assets/fastapi.jpg'
-import img9 from '../../assets/api-serverless.jpeg'
-import img10 from '../../assets/invaders_ships.jpg'
-import img11 from '../../assets/translater.png'
-import img12 from '../../assets/sudoku.png'
+import img4 from '../../assets/IoT.jpg'
+import img5 from '../../assets/PyWeather.jpg'
+import img6 from '../../assets/pydetecting.jpg'
+import img7 from '../../assets/crypto_analysis.jpg'
+import img8 from '../../assets/flaskbot.png'
+import img9 from '../../assets/fastapi.jpg'
+import img10 from '../../assets/api-serverless.jpeg'
+import img11 from '../../assets/invaders_ships.jpg'
+import img12 from '../../assets/translater.png'
+import img13 from '../../assets/sudoku.png'
 
 const data = [
   {
@@ -35,54 +36,60 @@ const data = [
   {
     id: 4,
     image: img4,
-    title: 'ETL con Python, Airflow y AWS',
-    github: 'https://github.com/GabrielPy28/PyWeather'
+    title: 'AWS IoT and Python',
+    github: 'https://github.com/GabrielPy28/Home-Automation-System'
   },
   {
     id: 5,
     image: img5,
-    title: 'Detección de Fraudes de Pago',
-    github: 'https://github.com/GabrielPy28/PyDetecting'
+    title: 'ETL con Python, Airflow y AWS',
+    github: 'https://github.com/GabrielPy28/PyWeather'
   },
   {
     id: 6,
     image: img6,
-    title: 'Crypto Data Storage',
-    github: 'https://github.com/GabrielPy28/crypto--technical-analysis'
+    title: 'Detección de Fraudes de Pago',
+    github: 'https://github.com/GabrielPy28/PyDetecting'
   },
   {
     id: 7,
     image: img7,
-    title: 'Chatbot con Flask y DialoGPT',
-    github: 'https://github.com/GabrielPy28/Flaskbot'
+    title: 'Crypto Data Storage',
+    github: 'https://github.com/GabrielPy28/crypto--technical-analysis'
   },
   {
     id: 8,
     image: img8,
-    title: 'FastAPI con Autenticación JWT',
-    github: 'https://github.com/GabrielPy28/FastAPI-JWT'
+    title: 'Chatbot con Flask y DialoGPT',
+    github: 'https://github.com/GabrielPy28/Flaskbot'
   },
   {
     id: 9,
     image: img9,
-    title: 'REST API Serverless',
-    github: 'https://github.com/GabrielPy28/API-Serverless'
+    title: 'FastAPI con Autenticación JWT',
+    github: 'https://github.com/GabrielPy28/FastAPI-JWT'
   },
   {
     id: 10,
     image: img10,
-    title: 'Pygame: Invaders Ships',
-    github: 'https://github.com/GabrielPy28/invaders-ships'
+    title: 'REST API Serverless',
+    github: 'https://github.com/GabrielPy28/API-Serverless'
   },
   {
     id: 11,
     image: img11,
-    title: 'Traductor de Texto',
-    github: 'https://github.com/GabrielPy28/Translator'
+    title: 'Pygame: Invaders Ships',
+    github: 'https://github.com/GabrielPy28/invaders-ships'
   },
   {
     id: 12,
     image: img12,
+    title: 'Traductor de Texto',
+    github: 'https://github.com/GabrielPy28/Translator'
+  },
+  {
+    id: 13,
+    image: img13,
     title: 'Solucionador de Sudokus 9x9',
     github: 'https://github.com/GabrielPy28/mis-proyectos-/tree/main/Solución%20Sudoku%20con%20Python'
   },
