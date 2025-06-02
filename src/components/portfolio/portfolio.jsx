@@ -13,6 +13,7 @@ import img10 from '../../assets/api-serverless.jpeg'
 import img11 from '../../assets/invaders_ships.jpg'
 import img12 from '../../assets/translater.png'
 import img13 from '../../assets/sudoku.png'
+import img14 from '../../assets/data_pipeline.jpg'
 
 const data = [
   {
@@ -20,12 +21,12 @@ const data = [
     image: img1,
     title: 'Django-Ecommerce con Paypal',
     github: 'https://github.com/GabrielPy28/Django-Ecommerce.git'
-  },
+  },  
   {
     id: 2,
-    image: img2,
-    title: 'App del Tiempo con JavaScript',
-    github: 'https://github.com/GabrielPy28/mini-proyecto-clima.git'
+    image: img14,
+    title: 'End-to-End Regulatory Data Pipeline',
+    github: 'https://github.com/GabrielPy28/regulatory-monitoring-system-SUCOP'
   },
   {
     id: 3,
@@ -92,6 +93,12 @@ const data = [
     image: img13,
     title: 'Solucionador de Sudokus 9x9',
     github: 'https://github.com/GabrielPy28/mis-proyectos-/tree/main/Solución%20Sudoku%20con%20Python'
+  },
+  {
+    id: 14,
+    image: img2,
+    title: 'App del Tiempo con JavaScript',
+    github: 'https://github.com/GabrielPy28/mini-proyecto-clima.git'
   },
 ]
 

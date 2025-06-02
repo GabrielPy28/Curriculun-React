@@ -7,7 +7,9 @@ const cors = require('cors');
 const app = express();
 app.use(cors({ origin: '*' }));
 
-const key = process.env.SENDGRID_API_KEY
+// Cambia las variables de entorno según sea necesario
+const emailUser  = process.env.GMAIL_USER; // Tu correo de Gmail
+const emailPass = process.env.GMAIL_PASSWORD; // Tu contraseña de Gmail o contraseña de aplicación
 
 app.use(express.json());
 
@@ -20,7 +22,7 @@ app.post('/send-email', async (req, res) => {
             name: 'Gabriel Piñero'
         },
         from: {
-            email: 'webportafolio3@gmail.com',
+            email: emailUser , // Usa el correo de Gmail
             name: 'Portafolio Web'
         },
         subject: subject,
@@ -34,12 +36,10 @@ app.post('/send-email', async (req, res) => {
     };
 
     let transporter = nodemailer.createTransport({
-        host: 'smtp.sendgrid.net', // Aquí va el servidor SMTP, como 'smtp.gmail.com' para Gmail
-        port: 587, // Aquí va el puerto SMTP, como 465 para SSL o 587 para TLS
-        secure: false, // Utiliza SSL (true) o TLS (false)
+        service: 'gmail', // Usar el servicio de Gmail
         auth: {
-            user: 'apikey', // Aquí va tu correo electrónico
-            pass: key // Aquí va tu contraseña
+            user: emailUser , // Tu correo de Gmail
+            pass: emailPass // Tu contraseña de Gmail o contraseña de aplicación
         }
     });
 
@@ -52,11 +52,10 @@ app.post('/send-email', async (req, res) => {
 
     try {
         let info = await transporter.sendMail(mailOptions);
-        res.status(200).json({'Email enviado': info.messageId})
+        res.status(200).json({'Email enviado': info.messageId});
     } catch (error) {
         res.status(500).json({'Error al enviar el email': error});
-    };
-
+    }
 });
 
 app.listen(3001, () => {
