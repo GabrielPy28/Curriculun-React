@@ -22,7 +22,7 @@ const About = () => {
             <article className="about__card">
               <FaAward className='about__icon'/>
               <h5>Experiencia</h5>
-              <small>+4 años desarrollando</small>
+              <small>+6 años desarrollando</small>
             </article>
 
             <article className="about__card">
@@ -33,12 +33,14 @@ const About = () => {
           </div>
 
           <p>
-            Programador y Desarrollador con experiencia en la creación de código. 
-            Dominio de varias plataformas, lenguajes y sistemas integrados. 
-            Experiencia en las herramientas y procedimientos de desarrollo más 
-            vanguardistas. Capaz de autogestión eficaz en proyectos 
-            independientes. Buenas habilidades de colaboración dentro de un 
-            equipo productivo.
+            Desarrollador con más de 6 años de experiencia en
+            la creación de aplicaciones escalables y eficientes. Especializado
+            en la automatización de flujos de trabajo y en el desarrollo de
+            soluciones robustas utilizando Python. Experto en la implementación
+            de pipelines de datos e integración de servicios en la nube con AWS.
+            Apasionado por la programación y la resolución de problemas, 
+            optimizando procesos y aumentando la eficiencia operativa, contribuyendo
+            al éxito del equipo y de la organización.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Hablemos</a>
