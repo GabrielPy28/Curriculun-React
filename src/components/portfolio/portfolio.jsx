@@ -2,7 +2,7 @@ import React from 'react'
 import './portfolio.css'
 import img1 from '../../assets/tienda.jpg'
 import img2 from '../../assets/clima.jpg'
-import img3 from '../../assets/dashboards.png'
+import img3 from '../../assets/web_traffic.png'
 import img4 from '../../assets/IoT.jpg'
 import img5 from '../../assets/PyWeather.jpg'
 import img6 from '../../assets/pydetecting.jpg'
@@ -31,8 +31,8 @@ const data = [
   {
     id: 3,
     image: img3,
-    title: 'Dashboard para Data Analysis',
-    github: 'https://github.com/GabrielPy28/Python-Dashboard'
+    title: 'Explorador de tráfico web',
+    github: 'https://webtrafficexplorer-e8nsb3hvp6kyknspboaxqh.streamlit.app'
   },
   {
     id: 4,
