@@ -1,19 +1,20 @@
 import React from 'react'
 import './portfolio.css'
 import img1 from '../../assets/tienda.jpg'
-import img2 from '../../assets/clima.jpg'
+import img2 from '../../assets/data_pipeline.jpg'
 import img3 from '../../assets/web_traffic.png'
-import img4 from '../../assets/IoT.jpg'
+import img4 from '../../assets/moviRec.png'
 import img5 from '../../assets/PyWeather.jpg'
 import img6 from '../../assets/pydetecting.jpg'
 import img7 from '../../assets/crypto_analysis.jpg'
 import img8 from '../../assets/flaskbot.png'
 import img9 from '../../assets/fastapi.jpg'
 import img10 from '../../assets/api-serverless.jpeg'
-import img11 from '../../assets/invaders_ships.jpg'
-import img12 from '../../assets/translater.png'
-import img13 from '../../assets/sudoku.png'
-import img14 from '../../assets/data_pipeline.jpg'
+import img11 from '../../assets/IoT.jpg'
+import img12 from '../../assets/invaders_ships.jpg'
+import img13 from '../../assets/translater.png'
+import img14 from '../../assets/sudoku.png'
+import img15 from '../../assets/clima.jpg'
 
 const data = [
   {
@@ -24,7 +25,7 @@ const data = [
   },  
   {
     id: 2,
-    image: img14,
+    image: img2,
     title: 'End-to-End Regulatory Data Pipeline',
     github: 'https://github.com/GabrielPy28/regulatory-monitoring-system-SUCOP'
   },
@@ -37,8 +38,8 @@ const data = [
   {
     id: 4,
     image: img4,
-    title: 'AWS IoT and Python',
-    github: 'https://github.com/GabrielPy28/Home-Automation-System'
+    title: 'Movie Recommendation System',
+    github: 'https://github.com/GabrielPy28/MovieRecApp'
   },
   {
     id: 5,
@@ -79,24 +80,30 @@ const data = [
   {
     id: 11,
     image: img11,
-    title: 'Pygame: Invaders Ships',
-    github: 'https://github.com/GabrielPy28/invaders-ships'
+    title: 'AWS IoT and Python',
+    github: 'https://github.com/GabrielPy28/Home-Automation-System'
   },
   {
     id: 12,
     image: img12,
-    title: 'Traductor de Texto',
-    github: 'https://github.com/GabrielPy28/Translator'
+    title: 'Pygame: Invaders Ships',
+    github: 'https://github.com/GabrielPy28/invaders-ships'
   },
   {
     id: 13,
     image: img13,
+    title: 'Traductor de Texto',
+    github: 'https://github.com/GabrielPy28/Translator'
+  },
+  {
+    id: 14,
+    image: img14,
     title: 'Solucionador de Sudokus 9x9',
     github: 'https://github.com/GabrielPy28/mis-proyectos-/tree/main/Solución%20Sudoku%20con%20Python'
   },
   {
-    id: 14,
-    image: img2,
+    id: 15,
+    image: img15,
     title: 'App del Tiempo con JavaScript',
     github: 'https://github.com/GabrielPy28/mini-proyecto-clima.git'
   },
